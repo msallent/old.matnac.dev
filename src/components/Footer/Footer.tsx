@@ -26,10 +26,20 @@ export const Footer: FunctionComponent = () => (
     animate={{ opacity: 1 }}
     transition={{ opacity: { duration: 0.5, ease: 'easeInOut', delay: 2.7 } }}
   >
-    <StyledLink href="https://github.com/msallent" target="_blank" rel="noreferrer">
+    <StyledLink
+      aria-label="Go to GitHub"
+      href="https://github.com/msallent"
+      target="_blank"
+      rel="noreferrer"
+    >
       <GithubLogo />
     </StyledLink>
-    <StyledLink href="https://www.linkedin.com/in/matias-sallent/" target="_blank" rel="noreferrer">
+    <StyledLink
+      aria-label="Go to LinkedIn"
+      href="https://www.linkedin.com/in/matias-sallent/"
+      target="_blank"
+      rel="noreferrer"
+    >
       <LinkedInLogo />
     </StyledLink>
   </Container>
