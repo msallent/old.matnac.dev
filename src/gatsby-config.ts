@@ -28,7 +28,7 @@ const gatsbyConfig: GatsbyConfig = {
       'development',
     ],
     siteUrl: 'https://matnac.dev',
-    imageUrl: '/social.jpg',
+    imageUrl: '/share.jpg',
     language: 'en',
   },
   plugins: [
