@@ -61,7 +61,9 @@ const gatsbyConfig: GatsbyConfig = {
         background_color: '#1c1c1c',
         theme_color: '#36363a',
         display: 'standalone',
-        legacy: false,
+        icon_options: {
+          purpose: 'any maskable',
+        },
       },
     },
   ],
