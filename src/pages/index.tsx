@@ -19,7 +19,7 @@ const Container = styled.div`
 `;
 
 const Index: FunctionComponent<PageProps> = () => (
-  <>
+  <main>
     <Container>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 342 57">
         <Defs />
@@ -28,7 +28,7 @@ const Index: FunctionComponent<PageProps> = () => (
       </svg>
     </Container>
     <Footer />
-  </>
+  </main>
 );
 
 export default Index;

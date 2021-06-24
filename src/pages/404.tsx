@@ -4,7 +4,7 @@ import { Link, PageProps } from 'gatsby';
 import MonoLisaWoff2 from '../assets/fonts/MonoLisa-Regular.woff2';
 import MonoLisaWoff from '../assets/fonts/MonoLisa-Regular.woff';
 
-const Container = styled.div`
+const Container = styled.main`
   @font-face {
     font-family: 'MonoLisa';
     src: local('MonoLisa'), url(${MonoLisaWoff2}) format('woff2'),
