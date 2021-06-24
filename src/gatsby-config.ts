@@ -14,10 +14,20 @@ dotenv.config({
 
 const gatsbyConfig: GatsbyConfig = {
   siteMetadata: {
-    title: 'Gatsby Skeleton',
-    description: 'Gatsby starter featuring TypeScript, ESLint, Prettier and more...',
-    keywords: ['gatsby', 'starter', 'typescript', 'eslint', 'prettier', 'layout', 'seo'],
-    siteUrl: 'https://gatsby-starter-skeleton.netlify.app',
+    title: 'matnac.dev',
+    description: 'Next-gen web development',
+    keywords: [
+      'matnac',
+      'dev',
+      'senior',
+      'software',
+      'engineer',
+      'frontend',
+      'react',
+      'typescript',
+      'development',
+    ],
+    siteUrl: 'https://matnac.dev',
     imageUrl: '/social.jpg',
     language: 'en',
   },
