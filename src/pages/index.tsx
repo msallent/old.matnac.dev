@@ -4,6 +4,7 @@ import { PageProps } from 'gatsby';
 import { Defs } from '../components/Defs/Defs';
 import { TracedM } from '../components/TracedM/TracedM';
 import { Logo } from '../components/Logo/Logo';
+import { Footer } from '../components/Footer/Footer';
 
 const Container = styled.div`
   top: 50%;
@@ -18,13 +19,16 @@ const Container = styled.div`
 `;
 
 const Index: FunctionComponent<PageProps> = () => (
-  <Container>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 342 57">
-      <Defs />
-      <TracedM />
-      <Logo />
-    </svg>
-  </Container>
+  <>
+    <Container>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 342 57">
+        <Defs />
+        <TracedM />
+        <Logo />
+      </svg>
+    </Container>
+    <Footer />
+  </>
 );
 
 export default Index;
