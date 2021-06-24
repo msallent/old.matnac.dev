@@ -41,6 +41,19 @@ const gatsbyConfig: GatsbyConfig = {
       },
     },
     'gatsby-transformer-sharp',
+    {
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        name: 'matnac.dev',
+        short_name: 'matnac.dev',
+        start_url: '/',
+        icon: 'src/assets/svg/favicon.svg',
+        background_color: '#1c1c1c',
+        theme_color: '#36363a',
+        display: 'standalone',
+        legacy: false,
+      },
+    },
   ],
 };
 
